@@ -30,8 +30,8 @@ export function getDomain() {
 
 export function openWhatsApp() {
   const whatsApp = {
-    phone: '8618267116473',
-    isOpen: false,
+    phone: '8613637774746',
+    isOpen: true,
   }
   return whatsApp;
 }
