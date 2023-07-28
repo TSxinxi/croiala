@@ -46,7 +46,7 @@ export const links = () => {
       rel: 'preconnect',
       href: 'https://shop.app',
     },
-    { rel: 'icon', href: 'https://platform.antdiy.vip/static/image/logo_modamias.png?crop=center&height=32&v=1682331063&width=32' },
+    { rel: 'icon', href: '//www.croiala.com/cdn/shop/files/123_10x_3a8f1e46-616d-48a7-9a12-9015c52cfd45_32x32.png?v=1689668956' },
   ];
 };
 
