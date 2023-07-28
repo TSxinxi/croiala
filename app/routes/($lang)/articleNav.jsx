@@ -25,241 +25,63 @@ export default function articleNav() {
       <div className='article_title'>{name}</div>
       <div className='article_text'>
         {
-          id == '' ? null : id == 2 ? <div>
-            <p>croiala هو بائع تجزئة عبر الإنترنت يخدم حياة الموضة العالمية ، نحن ملتزمون بالأحذية ، والأحذية الرياضية ، والأحذية غير الرسمية ، والكعوب العالية ، والأحذية الجلدية ، والأحذية الرجالية ، والأحذية النسائية ، وحقائب السفر ، وحقائب Dior ، وحقائب الكتف ، وحقائب اليد ، والملابس المفضلة ، والملابس الرجالية ، سماعات الرأس وأكثر<img src="https://cdn.shopify.com/s/files/1/0617/7793/6534/files/33_480x480.jpg?v=1676368016" alt="" width="677" height="474" /></p>
-            <p>تأسست في عام 2015 ، وحافظت الشركة دائمًا على هدفها الأصلي في ظل موجة التجارة الإلكترونية ، مما جعل المنتجات الأكثر توقعًا.من خلال التكنولوجيا الصناعية الحديثة وراحة وسائل النقل الحديثة ، يمكن للمستخدمين من جميع أنحاء العالم الاستمتاع بالموضة ومتابعة الموضة. مهمتنا هي أن نكون روادًا في هذه الصناعة وأن نجلب الموضة إلى الحياة. لقد جمعنا معلومات ثقافية من بلدان مختلفة ، واحترمنا مفهوم الجمال في مختلف البلدان ، واعتمدنا تقنيات وعمليات متطورة في التصميم والمشتريات لتلبية احتياجات المستهلكين بشكل كامل ، وصنع المنتجات التي تلبي السوق ، وتسليم المنتجات للعملاء بسرعة اليدين. لدينا قنوات لوجستية متخصصة ودعم فني ، ونسمح لكل عميل بالاستمتاع بهذه النتيجة. يمكننا تلبية احتياجات العملاء: الأجهزة المحمولة والإنترنت ووسائل التواصل الاجتماعي.</p>
-            <p><img src="https://cdn.shopify.com/s/files/1/0617/7793/6534/files/11_480x480.jpg?v=1676368037" alt="" width="674" height="449" /></p>
-            <p><br />في هولتو ، يمكنك تحديد الموضة وفقًا لحالتك المزاجية ، لتحديد استخدامك وملابسك ، وهنا يمكنك مشاهدة المنتجات التي تناسبك أنت وعائلتك ، لأن هدفنا الأصلي هو السماح للعملاء بالتعبير عن فرديتهم ، واستخدام مجموعة واسعة من المنتجات اختيارات منتج يناسب أي مناسبة أو مناسبة.</p>
-            <p><img src="https://cdn.shopify.com/s/files/1/0617/7793/6534/files/22_480x480.jpg?v=1676368061" alt="" width="680" height="453" /></p>
-          </div> : id == 1 ? <div>
-            <article className="4ever-article">
-              <p>يرجى الملاحظة:<br />نظرًا لزيادة الحجم وتأثير COVID-19 ، فإننا نواجه تأخيرات في المعالجة والشحن. لذلك ، قد يستغرق وصول طلبك وقتًا أطول من المعتاد ، ونحن نعمل بجد لتوصيله إليك في أسرع وقت ممكن.<br /><br />البريد الإلكتروني الذي تلقيته مع معلومات التتبع الخاصة بك هو أفضل مورد للتحديثات وتوقيت تسليم طلبك.<br /><br />بالإضافة إلى ذلك ، نؤكد لك أن أي تأخير في الشحن لن يؤثر على الإطار الزمني للإرجاع أو الاستبدال. تستند جميع عمليات الإرجاع والاستبدال إلى تاريخ تسليم طلبك.<br /><br />نشكرك على سعة صدرك لأننا نفي بالطلبات بأسرع ما يمكن وبأمان ونعتذر عن أي إزعاج.<br /><br />كيف يمكنك الاستمتاع بسياسة الشحن المجاني؟<br /><br />شحن مجاني للطلبات التي تزيد عن 79 دولارًا أمريكيًا. يجب أن تخضع كل من تكاليف الشحن وطريقة الشحن لما هو مذكور في صفحة الدفع ، وقد يختلف ذلك باختلاف وجهات التسليم<br /><br />متى سأستلم شحنتي بعد تقديم طلبي؟<br /><br />هناك نوعان من العوامل الرئيسية التي ستقرر متى ستتلقى الحزمة الخاصة بك.</p>
-              <ol>
-                <li>Item Processing Time: The processing time is the time it takes for the seller to prepare the item(s) for shipment. There are different processing times for different items depending on product category and volume. Usually it is around 5 to 7 working days to process.</li>
-              </ol>
-              <p>&nbsp; &nbsp; &nbsp; &nbsp;<img src="https://cdn.shopify.com/s/files/1/0663/5749/4006/files/1_480x480.png?v=1663236647" alt="" /></p>
-              <ol start="2">
-                <li>Shipping Method: Delivery time varies with shipping method. Time in transit varies depending on where you're located and where your package is coming from. You can also check the follow form for more detail about the delivery time:</li>
-              </ol>
-              <p>Affected by the coronavirus epidemic, it may lead to extension of the delivery time. In some areas or countries with serious epidemic , the delivery time may be twice as much as the normal standard.</p>
-              <table border="1">
-                <tbody>
-                  <tr>
-                    <td>
-                      <p><strong><b>Shipping Method</b></strong></p>
-                    </td>
-                    <td>
-                      <p><strong><b>Delivery Time</b></strong></p>
-                    </td>
-                    <td>
-                      <p><strong><b>Area</b></strong></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td rowspan="13">
-                      <p><strong><b>Super Savings</b></strong></p>
-                    </td>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>North America&nbsp;</b></strong>(USA )</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Oceanica</b></strong>&nbsp;(Australia)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe&nbsp;</b></strong>(France Germany Belgium Luxembourg Netherlands)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe&nbsp;</b></strong>(Sweden Portugal Italy)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe&nbsp;</b></strong>(England)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe&nbsp;</b></strong>(Finland Iceland Switzerland The Czech Republic Greece Austria)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe&nbsp;</b></strong>(Norway Denmark Sweden Ireland Luxembourg Switzerland The Czech Republic Slovakia Poland Slovenia Romania Hungary Latvia Lithuania Estonia)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>North America&nbsp;</b></strong>(Canada Mexico)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>7-15 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>South America&nbsp;</b></strong>(Columbia Chile Peru Argentina Venezuela Ecuador)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>7-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Asia&nbsp;</b></strong>(Korea Japan Philippines Vietnam Thailand Singapore Malaysia India Pakistan Kazakhstan Iran Israel Saudi Arabia Cyprus Palestine)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe&nbsp;</b></strong>(Croatia Ukraine Georgia Spain Russia)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Africa&nbsp;</b></strong>(Egypt Libya Morocco South Africa Niger Ghana Cote d'Ivoire Togo Sultan Guinea)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>5-12 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Oceanica&nbsp;</b></strong>(New Zealand)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td rowspan="6">
-                      <p><strong><b>Expedited Shipping</b></strong></p>
-                    </td>
-                    <td>
-                      <p>2-5 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Europe</b></strong>&nbsp;(Norway Denmark Sweden Finland France Ireland Belgium Netherlands Luxembourg Switzerland Germany Austria The Czech Republic Slovakia Poland Spain Portugal Italy Croatia Slovenia Romania Greece Hungary Ukraine Latvia Lithuania Georgia Estoni)<br /><strong><b>Europe&nbsp;</b></strong>England</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>2-5 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>North America</b></strong>&nbsp;(USA Canada Mexico)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>2-5 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>South America</b></strong>&nbsp;(Columbia Chile Peru Brazil Argentina Venezuela Ecuador)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>3-7 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Asia&nbsp;</b></strong>(Korea Japan Philippines Vietnam Thailand Singapore Malaysia India Pakistan Kazakhstan Israel Saudi Arabia Cyprus Palestine)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>2-5 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Africa</b></strong>&nbsp;(Egypt Libya Morocco South Africa Niger Ghana Cote d'Ivoire Togo Sultan Guinea)</p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <p>2-5 days</p>
-                    </td>
-                    <td>
-                      <p><strong><b>Oceanica&nbsp;</b></strong>(Australia New Zealand)</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <p>&nbsp;</p>
-            </article>
-          </div> : id == 0 ? <div>
-            <p>الدفع مع Paypal</p>
-            <p><img src="https://cdn.shopify.com/s/files/1/0663/5749/4006/files/Payment_480x480.png?v=1663236229" alt="" /></p>
-            <p>1. مع PayPal ، يمكنك إرسال المدفوعات بسرعة وأمان عبر الإنترنت.<br /><br />2. من خلال PayPal ، يمكنك الدفع ببطاقة الائتمان أو بطاقة الخصم أو رصيد الحساب المصرفي.<br /><br />3. بمجرد تقديم طلبك ، ستتم إعادة توجيهك إلى موقع PayPal حيث يمكنك إجراء الدفع.</p>
-          </div> : id == 3 ? <div>
-            <div class="rte">
-              <p>الأحكام والشروط</p>
-              <p><span>نبسب ؛ نبسب ؛ موجود داخل نبسب ؛ تخضع أي حقوق أخرى مرتبطة بالموقع &amp; nbsp ؛ لقانون حقوق النشر والعلامات التجارية. لا يجوز لك إعادة الإنتاج للاستخدام العام أو التجاري بدون إذن كتابي صريح من&nbsp;</span><span></span><strong><a href="https://zostyles.co/">أ<span>&nbsp;</span></a><a href="https://zostyles.co/"><span>&nbsp;</span></a><a href="https://croiala.com/" title="">croiala</a><a href="https://zostyles.co/"></a></strong><span>نبسب ؛. إذا كنت ترغب في إعادة إنتاج المحتوى الذي يظهر على موقعنا أو تخزينه أو نقله أو استخدامه بأي شكل من الأشكال ، فيرجى الاتصال بنا عبر البريد الإلكتروني: <a href="https://croiala.com/">croiala.com</a></span></p>
-              <ol start="10"></ol>
-            </div>
-          </div> : id == 4 ? <div>
-            <p>يمكننا فقط تقديم رصيد تخزين لأي عنصر يتم إرجاعه دوليًا بعد الاستلام. بالنسبة للإرجاع الدولي ، يمكننا قبول طلبات الإرجاع حتى 7 أيام بعد تاريخ التسليم ، وستحتاج إلى استخدام شركة الشحن الخاصة بك لإعادة العنصر إلينا. لشحن العناصر مرة أخرى إلى croiala البريد الإلكتروني florindodionata12@outlook.com مع رقم الطلب وتفاصيل العنصر الذي ترغب في إرجاعه.<br />بمجرد تأكيد فريقنا وتقديم عنوان الإرجاع ، يرجى تعبئة العنصر والفاتورة في الحقيبة أو الصندوق.<br />يرجى ذكر رقم فاتورتك ووضع علامة على "إرجاع البضائع" في بوليصة الشحن الجوي. أرسل عودتك بالبريد باستخدام شركة النقل التي تختارها ، لاحظ أن إعادة الشحن ستكون على نفقتك الخاصة. فيما يتعلق بمسألة التبادل ، إذا كنت ترغب في الاستبدال ، فإن أسهل طريقة هي إرجاع منتجك من خلال العملية المذكورة أعلاه وتقديم طلب جديد ، أو الاتصال بموظفي خدمة العملاء الرسميين.</p>
-          </div> : id == 5 ? <div>
-            <p>شكرًا لك على زيارة croiala.com ("الموقع").<br /><br />توضح سياسة الخصوصية والأمان هذه ("السياسة") المعلومات التي نجمعها عنك على موقع الويب ، بالإضافة إلى المعلومات التي تم جمعها عند زيارتك لمتاجرنا أو التواصل أو التواصل عبر موقع croiala.com بالإضافة إلى بياناتي ، وكيفية استخدامنا للبيانات الشخصية المعلومات ، وبعض الخطوات الأمنية المتخذة لحماية المعلومات ، والخيارات التي يتعين عليك مراجعتها و / أو مراجعة و / أو تقييد استخدامنا لهذه المعلومات.<br /><br />هذه السياسة جزء من شروط وأحكام الاستخدام التي تحكم الموقع وهي ملزمة لجميع مستخدمي الموقع.<br /><br />إذا كان لديك أي اعتراضات على سياسة الخصوصية هذه ، فيجب عليك التوقف عن استخدام الموقع على الفور.</p>
-            <ol>
-              <li>كيف نستخدم بياناتك الشخصية؟<br />عند تقديم بياناتك الشخصية ، فإنك توافق على croiala .com للبيانات التي تم جمعها من أجل الوفاء بالتزاماتنا تجاهك وتزويدك بالخدمة التي تتوقعها.<br /><br />نحتاج إلى بياناتك الشخصية للأغراض التالية:<br /><br />- لإنشاء حسابك الشخصي على croiala.com (على سبيل المثال ، اسمك وعنوان بريدك الإلكتروني)<br /><br />- لمعالجة طلباتك (مثل اسمك وعنوانك وتفاصيل البنك)<br /><br />- لتتمكن من إرسال إشعارات الرسائل النصية بحالة التسليم (مثل رقم هاتفك المحمول)<br /><br />- لتتمكن من إرسال عروض تسويقية لك مثل النشرات الإخبارية وكتالوجاتنا (مثل عنوان بريدك الإلكتروني واسمك)<br /><br />- لتتمكن من الاتصال بك في حالة وجود أي مشكلة في تسليم العناصر الخاصة بك (مثل رقم الهاتف والعنوان)<br /><br />- لتمكيننا من الرد على استفساراتك وإبلاغك بالخدمات الجديدة أو المتغيرة (مثل عنوان بريدك الإلكتروني)<br /><br /> <br /><br />سنحتفظ ببياناتك فقط طالما كان ذلك ضروريًا لتنفيذ خدماتنا لك أو طالما أننا مطلوبون بموجب اللوائح.<br /><br />لا يمكننا إزالة بياناتك عندما يكون هناك متطلبات تخزين قانونية ، مثل قواعد حفظ الدفاتر أو عندما يكون هناك أساس قانوني للاحتفاظ بالبيانات ، مثل علاقة تعاقدية مستمرة.<br /><br />تُستخدم البيانات غير الشخصية على النحو الموضح أعلاه وبطرق أخرى حسبما تسمح به القوانين المعمول بها ، بما في ذلك دمج البيانات غير الشخصية مع البيانات الشخصية.<br /><br />بالإضافة إلى ذلك ، نحن نراقب استخدام الموقع وأنماط حركة المرور لتحسين تصميم موقع الويب والمنتجات والخدمات التي نقدمها وكذلك لتحديد العروض أو العروض الترويجية أو المعلومات التي نرسلها إليك.<br /><br />لخدمتك بشكل أفضل ، قد نقوم بدمج المعلومات الشخصية التي تقدمها لنا عبر الإنترنت ، أو عبر جهاز محمول ، أو في متاجرنا ، أو من خلال مركز اتصال خدمة العملاء لدينا.<br /><br />قد نقوم أيضًا بدمج هذه المعلومات مع المعلومات المتاحة للجمهور والمعلومات التي نتلقاها من المرجع التبادلي مع شركاء محددين وآخرين. من خلال دمج هذه المعلومات ، نكون أكثر قدرة على التواصل معك بشأن منتجاتنا وخدماتنا ، والأحداث الخاصة والعروض الترويجية ، ونكون أكثر قدرة على تخصيص تجربة التسوق الخاصة بك.</li>
-            </ol>
-            <p>&nbsp;&nbsp;</p>
-            <ol start="2">
-              <li>لديك الحق في طلب معلومات حول البيانات الشخصية التي نحتفظ بها عنك.<br />إذا كانت بياناتك غير صحيحة أو غير كاملة أو غير ذات صلة ، يمكنك أن تطلب تصحيح المعلومات أو إزالتها. سنويًا ، يحق لك أيضًا طلب وثائق مكتوبة ، مجانًا ، بشأن المعلومات الشخصية التي لدينا عنك في ملفات الحساب الخاصة بنا.<br /><br />لطلب هذا المستند ، يرجى الكتابة إلى خدمة عملاء croiala.com. يمكنك سحب موافقتك على استخدام البيانات لأغراض التسويق في أي وقت (مثل إرسال الكتالوجات أو الرسائل الإخبارية أو العروض). يمكنك الاتصال بنا عبر الهاتف أو البريد الإلكتروني.</li>
-            </ol>
-            <p>&nbsp;&nbsp;</p>
-            <ol start="3">
-              <li>يمكنك الوصول إلى حسابك الشخصي لتحديث بياناتك الشخصية.<br />يرجى ملاحظة ، مع ذلك ، أن معلومات حسابك الشخصية محمية باسم المستخدم وكلمة المرور.<br /><br />تقع على عاتقك مسؤولية الحفاظ على أمان اسم المستخدم وكلمة المرور الخاصين بك لأن أي إجراءات يتم اتخاذها أثناء تسجيل الدخول إلى حسابك ستكون مسؤوليتك.</li>
-            </ol>
-            <p>&nbsp;</p>
-            <ol start="4">
-              <li>نحن لا نبيع معلوماتك لأطراف ثالثة.<br />ومع ذلك ، فإننا نشارك البيانات مع أطراف ثالثة عند الضرورة لتنفيذ معاملة أو إكمال خدمة أو لأغراض إدارية أو عندما يقتضي القانون ذلك.<br /><br />تُستخدم أي بيانات يتم إرسالها إلى جهات خارجية للوفاء بالتزامات <span>croiala.com</span> تجاه y croiala.com ، ويجوز لي أيضًا تقديم بياناتك الشخصية إلى مؤسسات مثل مرجع الائتمان أو وكالات تحصيل الديون لأغراض التحقق من الائتمان والتحقق من الهوية والمراقبة التصنيف الائتماني وتحصيل الديون.<br /><br />بالإضافة إلى ذلك ، سوف نشارك بياناتك إذا كانت هذه المشاركة مطلوبة بموجب القانون أو للحماية من الاحتيال المحتمل أو المشتبه به. أيضًا ، <span>croiala.com</span>.com us Me يخضع لعملية اندماج أو إعادة تنظيم الشركة أو بيع أو شراء أصولنا بالكامل أو جزء منها من قبل طرف آخر ، وقد تتم مشاركة بياناتك الشخصية. إذا كنت لا تريد منا مشاركة بياناتك الشخصية بهذه الطرق ، فيرجى عدم تزويدنا بها.</li>
-            </ol>
-            <p>&nbsp;</p>
-            <ol start="5">
-              <li>ملف تعريف الارتباط هو جزء من البيانات المخزنة على القرص الصلب الخاص بالمستخدم يحتوي على معلومات حول المستخدم.<br />نحن نستخدم ملفات تعريف الارتباط الخاصة بالجلسة وملفات تعريف الارتباط الدائمة ، حيث تمكّننا ملفات تعريف الارتباط من تتبع واستهداف اهتمامات مستخدمينا بشكل إجمالي من خلال تحليل المناطق والمنتجات الشائعة لتعزيز التجارب المستقبلية على موقعنا.<br /><br />لا تتسبب ملفات تعريف الارتباط في إتلاف أنظمة الكمبيوتر أو الملفات الخاصة بك ، ولا يمكن قراءة ملفات تعريف الارتباط هذه أو تعديلها أو حذفها إلا من خلال موقع الويب الذي قام بنقل ملف تعريف ارتباط معين إليك.<br /><br />إذا كنت لا تريد جمع المعلومات من خلال استخدام ملفات تعريف الارتباط ، فهناك إجراءات بسيطة في معظم المتصفحات تسمح لك بحذف ملفات تعريف الارتباط الموجودة ، أو رفض ملفات تعريف الارتباط تلقائيًا ، أو منحك خيار رفض أو قبول نقل ملفات تعريف ارتباط معينة إلى حسابك حاسوب.<br /><br />يمكنك بسهولة مسح ملفات تعريف الارتباط من جهاز الكمبيوتر أو الجهاز المحمول باستخدام متصفحك. للحصول على إرشادات حول كيفية التعامل مع ملفات تعريف الارتباط وحذفها ، يرجى الاطلاع على "المساعدة" في متصفحك.<br /><br />يمكنك اختيار تعطيل ملفات تعريف الارتباط ، أو تلقي إشعار في كل مرة يتم فيها إرسال ملف تعريف ارتباط جديد إلى جهاز الكمبيوتر أو الجهاز المحمول الخاص بك. ومع ذلك ، يرجى ملاحظة أنه إذا اخترت تعطيل ملفات تعريف الارتباط ، فلن تتمكن من الاستفادة من جميع الميزات.</li>
-            </ol>
-            <ol start="6">
-              <li>يتخذ موقع croiala.com كل الاحتياطات اللازمة لحماية معلومات مستخدمينا.<br />عندما يطلب نموذج التسجيل / الطلب الخاص بنا من المستخدمين إدخال معلومات حساسة (مثل رقم بطاقة الائتمان و / أو رقم الضمان الاجتماعي) ، يتم تشفير هذه المعلومات وحمايتها باستخدام برنامج التشفير Secure Socket Layers (SSLs). أثناء التواجد في صفحة آمنة ، مثل نموذج الطلب الخاص بنا ، يظهر رمز قفل أسفل مستعرض الويب الخاص بك.<br /><br />عندما لا تكون في صفحة آمنة ، لن تظهر أيقونة قفل. بالإضافة إلى ذلك ، يتم الاحتفاظ بالخوادم التي نقوم بتخزين معلومات التعريف الشخصية عليها في بيئة آمنة تحت الوصول المقيد. ومع ذلك ، فإن أنظمة الأمان ليست معصومة من الخطأ ، بما في ذلك أنظمة التشفير.<br /><br />بينما نبذل جهودًا معقولة لحماية معلوماتك الشخصية ، لا يمكننا ضمان أمنها المطلق.<br /><br />إذا كان لديك أي أسئلة حول الأمن على موقعنا ، يرجى إرسال بريد إلكتروني إلينا على support@ohohpet.com لمزيد من المعلومات.</li>
-            </ol>
-            <p>&nbsp;</p>
-            <ol start="7">
-              <li>استكمال المعلومات.<br />لكي تفي croiala.com بالتزاماتها بشكل صحيح تجاه عملائنا ، من الضروري أن نكمل المعلومات التي نتلقاها بمعلومات من مصادر خارجية مثل مواقع الويب التابعة لنا.<br /><br />على سبيل المثال ، سنجمع معلومات حول عادات الشراء للمستخدمين مع معلومات مماثلة من المواقع التابعة لنا.<br /><br />عندما يقوم المستخدم بعملية شراء من أي من هذه الشركات ، تقوم الشركات بجمع معلومات الشراء هذه ومشاركتها معنا حتى نتمكن من تخصيص الموقع وفقًا لتفضيلات مستخدمينا.<br /><br />إذا تغيرت معلومات التعريف الشخصية للمستخدم (مثل الرمز البريدي أو الهاتف أو البريد الإلكتروني أو العنوان البريدي) ، أو إذا لم يعد المستخدم يرغب في خدمتنا ، فإننا نقدم طريقة لتصحيح أو تحديث أو حذف / إلغاء تنشيط التعريف الشخصي لهذا المستخدم المعلومات المقدمة لنا. يمكن القيام بذلك باستخدام ميزة إلغاء الاشتراك في اتصالاتنا.<br /><br /> <br /><br />التغييرات التي تطرأ على هذه السياسة ، نحتفظ بالحق في تغيير سياسة الخصوصية هذه وأي من سياساتنا أو إجراءاتنا المتعلقة بمعالجة المعلومات التي تم جمعها من خلال الموقع ، دون إشعار مسبق ، ويمكنك تحديد تاريخ آخر مراجعة لسياسة الخصوصية هذه بالإشارة إلى التاريخ. في الجزء العلوي من هذه الصفحة. ستصبح أي تغييرات تطرأ على سياسة الخصوصية الخاصة بنا سارية عند نشر السياسة المنقحة على الإنترنت ، والتي يمكن الوصول إليها من خلال الموقع. يشكل استخدام الموقع بعد هذه التغييرات موافقتك على السياسة المعدلة في ذلك الوقت. نحن نشجعك على مراجعة سياسة الخصوصية الخاصة بنا بشكل دوري لضمان التعرف على أحدث إصدار لدينا.</li>
-            </ol>
-          </div> : id == 6 ? <div>
-            يرجى الاتصال على whatsapp عبر الإنترنت للحصول على مزيد من المساعدة. سوف نقوم بالرد خلال 24 ساعة. شكرا لصبرك مقدما.
-          </div> : null}
+          id == '' ? null :
+            id == 0 ? <div className="shopify-policy__container">
+              <div className="shopify-policy__body">
+                <div className="rte">
+                  <div></div>
+                  <div className="shopify-policy__container" style={{ textAlign: "center" }}>
+                    <div className="shopify-policy__body">
+                      <div className="rte">Vă mulțumim pentru vizitarea croiala.com (denumit în continuare „Site-ul”).<br /><br />Această politică de confidențialitate și securitate („Politică”) descrie informațiile pe care le colectăm despre dumneavoastră pe site și datele mele atunci când vizitați magazinul nostru sau comunicați sau comunicați prin <span>croiala.com</span>, modul în care folosim informațiile personale și unele dintre măsurile de securitate luăm. Pentru a proteja informațiile și opțiunile dvs. de a revizui și/sau revizui și/sau limita utilizarea de către noi a acestor informații.<br /><br />Această politică face parte din termenii și condițiile de utilizare care guvernează site-ul web și este obligatorie pentru toți utilizatorii site-ului.<br /><br />Dacă aveți vreo obiecție la această Politică de confidențialitate, trebuie să încetați imediat utilizarea acestui site web.<br /><br />Cum folosim datele dvs. personale?<br />Prin furnizarea datelor dvs. personale, sunteți de acord ca <span>croiala.com</span> să utilizeze datele colectate pentru a ne îndeplini obligațiile față de dvs. și pentru a vă oferi serviciile la care v-ați așteptat.<br /><br />Avem nevoie de datele dumneavoastră personale în următoarele scopuri:<br /><br />- Creați-vă contul personal pe <span>croiala.com</span> (de exemplu, numele și adresa dvs. de e-mail)<br /><br />- pentru a vă procesa cererea (cum ar fi numele, adresa și detaliile bancare)<br /><br />- Posibilitatea de a trimite notificări prin SMS privind starea livrării (de exemplu, numărul dvs. de mobil)<br /><br />- pentru a vă putea trimite oferte de marketing, cum ar fi buletine informative și cataloagele noastre (cum ar fi adresa dvs. de e-mail și numele)<br /><br />- Posibilitatea de a vă contacta dacă există probleme cu livrarea articolului dvs. (de exemplu, numărul de telefon, adresa)<br /><br />Pentru a ne permite să răspundem la întrebările dvs. și să vă anunțăm cu privire la serviciile noi sau modificate (cum ar fi adresa dvs. de e-mail)<br /><br /><br /><br />Vom păstra datele dumneavoastră doar atât timp cât este necesar pentru a vă oferi servicii sau conform prevederilor legale.<br /><br />Nu putem șterge datele dumneavoastră dacă există cerințe legale de stocare (de exemplu, reguli de contabilitate) sau dacă există o bază legală pentru păstrarea datelor (de exemplu, continuarea relației contractuale).<br /><br />Datele non-personale sunt utilizate așa cum este descris mai sus și așa cum este permis altfel de legea aplicabilă, inclusiv prin combinarea datelor ne-personale cu datele personale.<br /><br />În plus, monitorizăm utilizarea site-ului și modelele de trafic pentru a îmbunătăți designul site-ului și produsele și serviciile pe care le oferim și pentru a determina ce oferte, promoții sau informații să vă trimitem.<br /><br />Pentru a vă servi mai bine, este posibil să combinăm informațiile personale pe care ni le furnizați online prin intermediul dispozitivului dvs. mobil, în magazinele noastre sau prin intermediul centrelor noastre de asistență pentru clienți.<br /><br />De asemenea, putem combina aceste informații cu informații disponibile public și informații pe care le primim din referințe încrucișate cu parteneri selectați și alții. Combinând aceste informații, putem să comunicăm mai bine cu dvs. despre produsele și serviciile noastre, evenimentele și promoțiile speciale și să vă personalizăm mai bine experiența de cumpărături.<br /><br /><br />Aveți dreptul de a solicita informații despre datele dumneavoastră personale deținute de noi.<br />Dacă datele dumneavoastră sunt incorecte, incomplete sau irelevante, puteți solicita ca informațiile să fie corectate sau șterse. De asemenea, aveți dreptul de a solicita, anual, gratuit, documentație scrisă a informațiilor personale pe care le deținem despre dumneavoastră în fișierul contului dumneavoastră.<br /><br />Pentru a solicita acest document, vă rugăm să scrieți la Serviciul Clienți <span>croiala.com</span>. Vă puteți retrage oricând consimțământul pentru utilizarea datelor în scopuri de marketing (de exemplu, pentru a vă trimite cataloage, buletine informative sau oferte). Ne puteți contacta telefonic sau prin e-mail.<br /><br /><br />Puteți vizita contul personal pentru a vă actualiza informațiile personale.<br />Vă rugăm să rețineți, totuși, că informațiile dvs. personale ale contului sunt protejate de numele dvs. de utilizator și parola.<br /><br />Sunteți responsabil pentru menținerea securității numelui de utilizator și a parolei, deoarece orice acțiune întreprinsă în timp ce vă conectați la contul dvs. este responsabilitatea dvs.<br /><br /><br />Nu vom vinde informațiile dumneavoastră către terți.<br />Cu toate acestea, împărtășim date cu terți atunci când efectuăm tranzacții, îndeplinim servicii, în scopuri administrative sau conform prevederilor legale.<br /><br />Orice date transmise către terți sunt folosite pentru a îndeplini obligațiile <span>croiala.com</span> și pot furniza, de asemenea, datele dumneavoastră cu caracter personal unor organizații precum consiliere de credit sau agenții de colectare a datoriilor în scopul verificării creditului, verificării identității, monitorizării ratingurilor de credit și colectării datoriilor. .<br /><br />În plus, vă vom împărtăși datele dacă este cerut de lege sau pentru a preveni fraudele potențiale sau suspectate. În plus, <span>croiala.com</span> poate fi fuzionat cu o altă parte, reorganizat corporativ, vândut sau cumpărat toate sau o parte din activele noastre, iar datele dumneavoastră personale pot fi partajate. Dacă nu doriți să vă împărtășim datele personale în aceste moduri, vă rugăm să nu ni le furnizați.<br /><br /><br />Un cookie este o bucată de date stocată pe hard diskul unui utilizator care conține informații despre utilizator.<br />Folosim atât cookie-uri de sesiune, cât și cookie-uri persistente. Cookie-urile ne permit să urmărim și să țintim interesele utilizatorilor în general, analizând zone și produse populare pentru a îmbunătăți experiența viitoare a site-ului nostru.<br /><br />Cookie-urile nu deteriorează sistemul informatic sau fișierele dumneavoastră, iar aceste cookie-uri pot fi citite, modificate sau șterse doar de site-ul web care v-a transmis specificul cookie.<br /><br />Dacă nu doriți să colectați informații prin utilizarea cookie-urilor, majoritatea browserelor au proceduri simple care vă permit să ștergeți cookie-urile existente, să respingeți automat cookie-urile sau vă oferă opțiunea de a refuza sau accepta transmiterea anumitor cookie-uri către dvs. calculator.<br /><br />Puteți șterge cu ușurință cookie-urile de pe computerul sau dispozitivul dvs. mobil utilizând browserul dvs.</div>
+                    </div>
+                  </div>
+                  <div id="shopify-section-sections--18842861961523__footer" className="shopify-section shopify-section-group-footer-group" style={{ textAlign: "center" }}>
+                    <div className="footer__content-top page-width">
+                      <div className="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet">
+                        <div className="footer-block grid__item footer-block--menu"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> :
+              id == 1 ? <div className="shopify-policy__container">
+                <div className="shopify-policy__body">
+                  <div className="rte">
+                    <div style={{ textAlign: "center" }}><span>NOTĂ: Orice alte drepturi care există în legătură cu site-ul&nbsp;croiala.com sunt supuse legilor privind drepturile de autor și mărcile comerciale. Nu puteți reproduce pentru uz public sau comercial fără permisiunea scrisă expresă. Dacă doriți să reproduceți, să stocați, să transmiteți sau să utilizați în alt mod conținutul care apare pe site-ul nostru web, vă rugăm să ne contactați prin e-mail:&nbsp;support@croiala.ntesmail.com</span></div>
+                  </div>
+                </div>
+              </div> :
+                id == 2 ? <div className="shopify-policy__container">
+                  <div className="shopify-policy__body">
+                    <div className="rte">
+                      <div style={{ textAlign: "center" }}></div>
+                      <div className="shopify-policy__title" style={{ textAlign: "center" }}>
+                        <h1>Politica de retur</h1>
+                      </div>
+                      <div className="shopify-policy__body" style={{ textAlign: "center" }}>
+                        <div className="rte">
+                          <strong>Pentru a beneficia de restituirea banilor, te rugam sa ai in vedere urmatoarele conditii de returnare a produselor:</strong><br /><br /><em>-&nbsp;<strong>NU SE POT RETURNA PRODUSELE FOLOSITE!</strong></em><br /><em>- produsele nu vor prezenta semne de uzura</em><br /><em>- produsele nu vor fi deteriorate si nu vor avea accesorii lipsa (bretele, etc...)</em><br /><em>- instiintarea pentru returnarea produselor sa fie facuta in termen de<span>&nbsp;<strong>7</strong></span><strong>&nbsp;zile calendaristice de la momentul primirii coletului</strong></em><br /><em>- returnarea produselor se va face intr-un ambalaj care nu permite deteriorarea acestora pe durata transportului</em><br /><em>- ne rezervam dreptul de a refuza coletele deteriorate sau produsele care prezinta semne de uzura</em><br />
+                        </div>
+                        <div className="rte"></div>
+                        <div className="rte">
+                          <strong>Modalitate de returnare:</strong><br />
+                        </div>
+                        <div className="rte"><strong></strong></div>
+                        <div className="rte">- tă rugăm să ne informați despre intenția dumneavoastră de a returna numărul comenzii, detaliile articolului returnat, o fotografie a articolului și numărul contului bancar de rambursare la <strong>support@croiala.com</strong><br />- pentru a vă recupera banii, trebuie să ne furnizați numărul de cont bancar, care este singura metodă de plată posibilă<br />- <span>termenul de restituire al banilor este de maximum 7 zile (rambursarea poate întarzia in cazul in care produsele ajung cu intarziere la noi)</span><br />- va trebui să folosiți propria companie de transport maritim pentru a ne returna articolul<br />-&nbsp;<span>costul de retur este de&nbsp;<strong>30</strong></span><strong>&nbsp;LEI</strong><span>&nbsp;si se va scadea din valoarea sumei de returnat</span><br /><br /><strong>Ai obligatia legala de a avea grija de produse cat timp se afla in posesia ta.</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> :
+                  id == 3 ? <div className="normal_main_content page-width">
+                    <section id="shopify-section-template--19853327958293__main" className="shopify-section spaced-section"><div className="page-width">
+                      <div className="rte">
+                        <div style={{ textAlign: "center" }}><span>Croiala, un brand de shopping dedicat oferirii de haine elegante si tinute la moda romanilor. Numele de marcă „Croiala” provine din cuvântul românesc pentru „croitor”, care simbolizează căutarea noastră persistentă pentru măiestria pură. Fondatorul, Blair, are cerințe extrem de ridicate pentru textura și estetica hainelor. Bazându-se pe anii ei de experiență în achiziționarea a nenumărate articole de îmbrăcăminte, ea a pregătit o echipă profesionistă pentru a selecta îmbrăcăminte de modă de înaltă calitate și elegantă, pantofi și genți rafinate pentru a vă crea propriul stil individual. Urmărește acum Croiala, pășește în lumea modei românești și alătură-te comunității noastre de iubitori de modă.</span></div>
+                      </div>
+                    </div>
+                    </section>
+                  </div> : null}
       </div>
     </div>
   </div>

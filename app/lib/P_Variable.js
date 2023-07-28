@@ -21,6 +21,7 @@ export function getShopAddress() {
   // return 'shop-salesdish.myshopify.com';
   // return 'dazzlinns.myshopify.com';
   return 'croiala.myshopify.com';
+  // return 'pimowbot.myshopify.com';
 }
 
 export function getDomain() {
@@ -1890,7 +1891,7 @@ export function getLanguage() {
       type: 'RON',
       country: 'Romania',
       country_code: 'ROU',
-      deliveryProcess: 'deliveryProcess1.jpg',
+      deliveryProcess: 'croiala_flow_chart.png',
       whatsAppText: 'Vă rugăm să faceți clic pe trimite direct, nu ștergeți linkul de mai jos, veți primi cele mai precise răspunsuri de la serviciul nostru pentru clienți',
       notFoundTit: 'Am pierdut această pagină',
       notFoundText: 'Nu am putut găsi pagina pe care o căutați.',
@@ -1929,7 +1930,7 @@ export function getLanguage() {
       image5: 'Ne pare rău, putem accepta doar 5 imagini pentru o recenzie.',
       rightEmail: 'Vă rugăm să introduceți un e-mail valid',
       unknown: 'necunoscut',
-      acticleList: ['Metode de plată', 'Livrare', 'Despre noi', 'Termeni și condiții', 'Retururi și schimburi', 'Politica de confidențialitate', 'Contactați-ne'],
+      acticleList: ['Politica de confidențialitate', 'Termeni de utilizare', 'Politica De Retur', 'Despre noi'],
       discountZone: 'zonă de reducere a magazinului',
       free7: 'Serviciu gratuit de schimb și rambursare în termen de șapte zile',
       deliver: 'Livrare gratuită',
