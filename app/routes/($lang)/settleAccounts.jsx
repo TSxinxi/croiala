@@ -416,7 +416,7 @@ export function Information({ selectedVar }) {
         }
         <div className='in_list'>
           <div className='in_list_title'>
-            <span>{LText.semail}</span>
+            <span>{LText.semail} <i>*</i></span>
             <p></p>
           </div>
           <input name="email" type="text" placeholder={LText.semail} value={email} onChange={(e) => { setEmail(e.target.value) }} />
@@ -571,16 +571,16 @@ export function PaymentMethod() {
 }
 
 function SettleAccounts(selectedVar, params, setErrorText, setIsSubmit) {
-  if (!params.name || !params.phone || !params.state || !params.city || !params.area) {
+  if (!params.name || !params.phone || !params.state || !params.city || !params.area || !params.email) {
     return setErrorText(LText.empty)
   }
   if (LText.type === 'HUF' && !params.building) {
     return setErrorText(LText.empty)
   }
-  // var emailRegExp = /^[a-zA-Z0-9]+([-_.][A-Za-zd]+)*@([a-zA-Z0-9]+[-.])+[A-Za-zd]{2,5}$/;
-  // if (!emailRegExp.test(params.email)) {
-  //   return setErrorText(LText.correct)
-  // }
+  var emailRegExp = /^[a-zA-Z0-9]+([-_.][A-Za-zd]+)*@([a-zA-Z0-9]+[-.])+[A-Za-zd]{2,5}$/;
+  if (!emailRegExp.test(params.email)) {
+    return setErrorText(LText.correct)
+  }
   // var regex = new RegExp(/^(009665|9665|\+9665|05|5)(5|0|3|6|4|9|1|8|7)([0-9]{7})$/);
   // console.log(regex.test('0501234567'))
   // params.phone = '+40' + params.phone
