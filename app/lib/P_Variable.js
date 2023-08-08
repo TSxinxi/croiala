@@ -38,7 +38,7 @@ export function openWhatsApp() {
 }
 
 export function openComment() {
-  return false;
+  return true;
 }
 
 export function getDirection() {
