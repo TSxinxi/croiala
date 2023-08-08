@@ -474,6 +474,7 @@ export default function Product() {
   const [sortBy, setSortBy] = useState('created_at');
   const [filtRat, setFiltRat] = useState('');
   const [currency, setCurrency] = useState('');
+  const [commentSum, setCommentSum] = useState('');
 
   useEffect(() => {
     setHasMounted(true);
@@ -523,6 +524,15 @@ export default function Product() {
         GetCommentHeader().then(res => {
           if (res) {
             setCommentHeader(res)
+            var setDiv = document.createElement("div");
+            setDiv.innerHTML = res;
+            let averageText = setDiv.getElementsByClassName('jdgm-rev-widg__summary-text')[0]
+            if (averageText && averageText.innerHTML != LText.commentResult) {
+              let summaryNum = averageText.innerHTML.match(/\d+(\.\d+)?/g)[0]
+              if (summaryNum) {
+                setCommentSum(summaryNum)
+              }
+            }
           }
         })
       }
@@ -574,6 +584,16 @@ export default function Product() {
                 <Heading as="h1" className="whitespace-normal">
                   {title}
                 </Heading>
+                {
+                  commentSum && openComment() ? <div className='opinion_sum' onClick={() => { goComment() }}>
+                    <img src="https://platform.antdiy.vip/static/image/hydrogen_icon_star_quan.svg" />
+                    <img src="https://platform.antdiy.vip/static/image/hydrogen_icon_star_quan.svg" />
+                    <img src="https://platform.antdiy.vip/static/image/hydrogen_icon_star_quan.svg" />
+                    <img src="https://platform.antdiy.vip/static/image/hydrogen_icon_star_quan.svg" />
+                    <img src="https://platform.antdiy.vip/static/image/hydrogen_icon_star_quan.svg" />
+                    <span> {commentSum} păreri</span>
+                  </div> : null
+                }
                 {/* {vendor && (
                   <Text className={'opacity-50 font-medium'}>{vendor}</Text>
                 )} */}
@@ -812,6 +832,15 @@ export default function Product() {
       </Section>
     </>
   );
+}
+
+function goComment() {
+  let offsetT = $('.comment_product').offset().top;
+  if (offsetT) {
+    $("html,body").animate({
+      scrollTop: offsetT
+    }, 200)
+  }
 }
 
 function toTop() {

@@ -1003,6 +1003,19 @@ shop-pay-button {
     width: 20px;
     /* transform: rotate(180deg); */
   }
+  .opinion_sum{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .opinion_sum img{
+    width: 20px;
+    height: 20px;
+  }
+  .opinion_sum span{
+    margin-left: 5px;
+  }
   .flex_center{
     display: flex;
     align-items: center;
