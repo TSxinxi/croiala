@@ -84,16 +84,16 @@ export default function App() {
     if (getReferer() && getReferer().split('.com')[0].indexOf(window.location.host.split('.com')[0]) === -1 && (!localStorage.getItem('refererName') || (localStorage.getItem('refererName') && localStorage.getItem('refererName') !== getReferer()))) {
       localStorage.setItem('refererName', getReferer())
     }
-    // useEffect(() => {
-    //   (function (h, o, t, j, a, r) {
-    //     h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-    //     h._hjSettings = { hjid: 3527157, hjsv: 6 };
-    //     a = o.getElementsByTagName('head')[0];
-    //     r = o.createElement('script'); r.async = 1;
-    //     r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-    //     a.appendChild(r);
-    //   })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-  
+    useEffect(() => {
+      (function (h, o, t, j, a, r) {
+        h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+        h._hjSettings = { hjid: 3612350, hjsv: 6 };
+        a = o.getElementsByTagName('head')[0];
+        r = o.createElement('script'); r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+
     //   window.dataLayer = window.dataLayer || [];
     //   function gtag() { dataLayer.push(arguments); }
     //   gtag('js', new Date());
@@ -112,7 +112,7 @@ export default function App() {
     //     'https://connect.facebook.net/en_US/fbevents.js');
     //   fbq('init', '895173741588158');
     //   fbq('track', 'PageView');
-    // }, []);
+    }, []);
   }
   return (
     <html lang={locale.language} style={{ direction: getDirection() }}>

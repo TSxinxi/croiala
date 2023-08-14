@@ -22,6 +22,7 @@ export function getShopAddress() {
   // return 'dazzlinns.myshopify.com';
   return 'croiala.myshopify.com';
   // return 'pimowbot.myshopify.com';
+  // return 'tsxx-aqi-test1.myshopify.com';
 }
 
 export function getDomain() {
