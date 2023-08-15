@@ -797,7 +797,7 @@ export default function Product() {
           //   </button>
           // </div>
           <div className='buy_button sticky_bottom' style={{ padding: getDirection() === 'rtl' ? '.5rem .5rem .5rem .8rem' : '.5rem .8rem .5rem .5rem' }}>
-            <button className='buy_btn_style'>
+            <button className='buy_btn_new'>
               {/* <img src="https://platform.antdiy.vip/static/image/hultoo_buybtn.png" /> */}
               {/* {isOutOfStock ? (
                 <Text className='py-3 px-6'>{LText.sold}</Text>//卖完了
