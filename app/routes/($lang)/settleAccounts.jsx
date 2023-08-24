@@ -1,5 +1,6 @@
 // 结账页
 import { useRef, useMemo, useEffect, useState } from 'react';
+// import { Select, Divider, Space, Input, Button } from 'antd';
 import { Money } from '@shopify/hydrogen';
 import { Text } from '~/components';
 import fetch from '~/fetch/axios';
@@ -197,6 +198,7 @@ export function Information({ selectedVar }) {
   const [whatsapp, setWhatsapp] = useState('');
   const [state, setState] = useState('');
   const [city, setCity] = useState('');
+  // const [addCity, setAddCity] = useState('');
   const [area, setArea] = useState('');
   const [building, setBuilding] = useState('');
   const [street, setStreet] = useState('');
@@ -254,7 +256,7 @@ export function Information({ selectedVar }) {
           </div>
           {/* <div className='tele'>
             <span>+40</span> */}
-          <input type="text" placeholder={LText.phonepl1} value={phone} onChange={(e) => { setPhone(e.target.value) }} />
+          <input type="text" placeholder={LText.telephone} value={phone} onChange={(e) => { setPhone(e.target.value) }} />
           {/* </div> */}
         </div>
         {/* <div className='in_list'>
@@ -271,7 +273,8 @@ export function Information({ selectedVar }) {
                 <span>{LText.governor} <i>*</i></span>
                 <p></p>
               </div>
-              <select name="state" nullmsg={LText.district} value={state} onChange={(e) => { changeCity(e.target.value, setStreetList, setPostcode, setCity); setState(e.target.value) }} style={{ backgroundPosition: getDirection() === 'rtl' ? 'left .5rem center' : 'right .5rem center' }}>
+              <input type="text" placeholder={LText.governor} value={state} onChange={(e) => { setState(e.target.value) }} />
+              {/* <select name="state" nullmsg={LText.district} value={state} onChange={(e) => { changeCity(e.target.value, setStreetList, setPostcode, setCity); setState(e.target.value) }} style={{ backgroundPosition: getDirection() === 'rtl' ? 'left .5rem center' : 'right .5rem center' }}>
                 {
                   addressList.map((item, index) => {
                     return (
@@ -279,14 +282,15 @@ export function Information({ selectedVar }) {
                     )
                   })
                 }
-              </select>
+              </select> */}
             </div>
             <div className='in_list'>
               <div className='in_list_title'>
                 <span>{LText.city} <i>*</i></span>
                 <p></p>
               </div>
-              <select name="city" value={city} onChange={(e) => { changeArea(e.target.value, streetList, setPostcode); setCity(e.target.value) }} style={{ backgroundPosition: getDirection() === 'rtl' ? 'left .5rem center' : 'right .5rem center' }}>
+              <input type="text" placeholder={LText.city} value={city} onChange={(e) => { setCity(e.target.value) }} />
+              {/* <select name="city" value={city} onChange={(e) => { changeArea(e.target.value, streetList, setPostcode); setCity(e.target.value) }} style={{ backgroundPosition: getDirection() === 'rtl' ? 'left .5rem center' : 'right .5rem center' }}>
                 {
                   streetList.map((item, index) => {
                     return (
@@ -294,14 +298,40 @@ export function Information({ selectedVar }) {
                     )
                   })
                 }
-              </select>
-            </div>
-            <div className='in_list'>
-              <div className='in_list_title'>
-                <span>{LText.postalCode} <i>*</i></span>
-                <p></p>
-              </div>
-              <input disabled="disabled" type="text" placeholder={LText.postalCode} value={postcode} onChange={(e) => { setPostcode(e.target.value) }} />
+              </select> */}
+              {/* <Select
+                showSearch
+                value={city}
+                onChange={(e) => { changeArea(e, streetList, setPostcode); setCity(e) }}
+                options={streetList}
+                filterOption={(input, option) =>
+                  (option?.label ?? '').toLowerCase().includes(input.toLowerCase())
+                }
+                dropdownRender={(menu) => (
+                  <>
+                    {menu}
+                    <Divider
+                      style={{
+                        margin: '8px 0',
+                      }}
+                    />
+                    <Space
+                      style={{
+                        padding: '0 8px 4px',
+                      }}
+                    >
+                      <Input
+                        placeholder="Please enter item"
+                        value={addCity}
+                        onChange={(e) => { setAddCity(e.target.value) }}
+                      />
+                      <Button type="text" onClick={() => { addCityBtn(addCity, streetList, setCity) }}>
+                        Add item
+                      </Button>
+                    </Space>
+                  </>
+                )}
+              /> */}
             </div>
             <div className='in_list'>
               <div className='in_list_title'>
@@ -309,6 +339,18 @@ export function Information({ selectedVar }) {
                 <p></p>
               </div>
               <input type="text" placeholder='ex: Strada, numar, bloc, scara, etaj, apartament' value={area} onChange={(e) => { setArea(e.target.value) }} />
+            </div>
+            <div className='in_list'>
+              <div className='in_list_title'>
+                <span>{LText.postalCode} <i></i></span>
+                <p></p>
+              </div>
+              {/* <input disabled="disabled" type="text" placeholder={LText.postalCode} value={postcode} onChange={(e) => { setPostcode(e.target.value) }} /> */}
+              <input type="number" placeholder={LText.postalCode} value={postcode} onChange={(e) => {
+                if (e.target.value.length > 6) {
+                  setPostcode(e.target.value.slice(0, 6))
+                } else { setPostcode(e.target.value) }
+              }} />
             </div>
           </> : LText.type === 'HUF' ? <>
             {
@@ -506,6 +548,16 @@ export function Information({ selectedVar }) {
       </div> : null}
     </div>
   )
+}
+
+function addCityBtn(addCity, streetList, setCity) {
+  streetList.push({
+    name: addCity,
+    label: addCity,
+    value: addCity,
+    code: '',
+  })
+  setCity(streetList)
 }
 
 function changeArea(value, streetList, setPostcode) {
