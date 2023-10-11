@@ -110,7 +110,7 @@ export default function App() {
         s.parentNode.insertBefore(t, s)
       }(window, document, 'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '829564008698126');
+      fbq('init', '292861753259331');
       fbq('track', 'PageView');
     }, []);
   }
