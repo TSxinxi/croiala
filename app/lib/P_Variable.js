@@ -1064,6 +1064,8 @@ export function getLanguage() {
       writeReview: 'اكتب مراجعة',
       address: 'العنوان بالضبط',
       postalCode: 'الرمز البريدي',
+      quantityText: 'كمية',
+      errorQuantity: 'الرجاء إدخال كمية المنتج',
       addressList: [
         {
           name: '（المحافظة）إختر',
@@ -1985,6 +1987,8 @@ export function getLanguage() {
       address: 'Adresa exacta',
       postalCode: 'Cod postal',
       orderError: 'Achiziție eșuată',
+      quantityText: 'cantitate',
+      errorQuantity: 'Vă rugăm să introduceți cantitatea produsului',
       addressList: [
         {
           "name": "Județ",
@@ -2258,6 +2262,8 @@ export function getLanguage() {
       address: "Utca",
       postalCode: 'Irányítószám',
       orderError: 'Sikertelen vásárlás',
+      quantityText: 'Mennyiség',
+      errorQuantity: 'Kérjük, adja meg a termék mennyiségét',
       addressList: {
         "Megye": "",
         "Bács-Kiskun": {
